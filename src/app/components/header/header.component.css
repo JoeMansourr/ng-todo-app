@@ -1,0 +1,22 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.header__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+.user__status__name button{
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+}

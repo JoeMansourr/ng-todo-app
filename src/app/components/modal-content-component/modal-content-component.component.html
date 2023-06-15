@@ -1,0 +1,14 @@
+<div class="modal">
+  <h2>Edit Todo</h2>
+  <form>
+    <div class="form-group">
+      <label for="title">Title:</label>
+      <input type="text" id="title" name="title" [(ngModel)]="todo.title">
+    </div>
+    <div class="form-group">
+      <label for="completed">Completed:</label>
+      <input type="checkbox" id="completed" name="completed" [(ngModel)]="todo.completed">
+    </div>
+    <button type="button" (click)="onSubmit()">Submit</button>
+  </form>
+</div>

@@ -1,0 +1,42 @@
+.form-alignment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+form{
+    width: 100%;
+    padding: 20px;
+}
+
+form input{
+    width: 100%;
+    padding: 20px;
+    padding-left: 0;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #535353;
+    background-color: transparent;
+    outline: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    color: #fff;
+}
+
+form input::placeholder{
+    color: #535353;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+form button{
+    padding: 20px 20px 20px 0;
+    color: #fff;
+    border: transparent;
+    outline: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background-color: transparent;
+}
